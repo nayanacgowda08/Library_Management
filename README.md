@@ -107,8 +107,7 @@ Ensure your server is running to access the JSON API endpoints. The default serv
 5. ## Getting Started
 After installing the dependencies, you can start the development server with the following command:
 ```bash
-
-
+npm run dev
 
 
 
