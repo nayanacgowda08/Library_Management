@@ -1,0 +1,198 @@
+.landingpage{
+    height: 100vh;
+    width: 100%;
+    background:url(../images/bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+}
+
+.landingpage .login-container{
+    width: 22%;
+    /* height: 70vh; */
+    /* border: 2px solid yellow; */
+    box-shadow: inset 0 0 20px gray;
+    /* background-color: rgb(156, 154, 154); */
+    margin: 12vh 15vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.landingpage .btn-container{
+    height: 9vh;
+    width: 80%;
+    /* border: 1px solid goldenrod; */
+    margin: 5vh auto;
+    border-radius: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 20px gray;
+    /* justify-content: space-evenly; */
+}
+
+.landingpage .btn-container button{
+   
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+    font-size: 16px;
+    z-index: 6;
+    font-weight: 600;
+}   
+
+.landingpage .Admin-btn{
+    margin-left: 0%;
+    border-radius: 10vh 0vh 0vh 10vh;
+}
+
+.landingpage .user-btn{
+    margin-left: 50%;
+    border-radius: 0vh 10vh 10vh 0vh;
+}
+
+.landingpage .btn-container button:hover{
+    transform: scale(1.1);
+}
+
+.landingpage .bg-text{
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    /* padding: 0px 10px 0px; */
+}
+
+.landingpage .bg-text .user-bg{
+    margin: 50%;
+}
+
+.landingpage .bg-text .admin-bg{
+    margin: 0%;
+    /* transform: rotate(180deg); */
+}
+
+.landingpage .heading{
+    font-size: 40px;
+    color: rgb(155, 152, 152);
+    font-weight: bold;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    border-bottom: 2px solid rgb(155, 152, 152) ;
+    margin-bottom: 6vh;
+    /* transition: all 0.5s ease; */
+}
+
+.landingpage .form-container{
+    margin-bottom: 6vh;
+    /* background-color: pink; */
+}
+
+
+.landingpage .form-container input, .landingpage .form-container button{
+    display: block;
+    /* width: 80%; */
+    text-align: center;
+    margin:3vh auto;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* margin: 1; */
+}
+
+.landingpage .form-container input{
+    width: 80%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(234, 229, 229);
+}
+
+.landingpage .form-container button{
+    width: 50%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    box-shadow: rgba(246, 248, 248, 0.12) 0px 2px 4px 0px, rgba(213, 214, 215, 0.32) 0px 2px 16px 0px;
+}
+
+.landingpage .form-container button:hover{
+    background-color: rgb(246, 248, 248);
+    color: rgb(94, 93, 93);
+    box-shadow: rgba(246, 248, 248, 0.16) 0px 2px 4px 0px, rgba(213, 214, 215, 0.36) 0px 2px 16px 0px;
+}
+
+@media (max-width: 768px) {
+    .landingpage .login-container {
+        width: 80%;
+        margin: 10vh auto;
+        background-color: rgb(23, 22, 22);
+    }
+
+    .landingpage .heading {
+        font-size: 30px;
+        margin-bottom: 4vh;
+    }
+
+    .landingpage .btn-container {
+        width: 90%;
+        height: 8vh;
+    }
+
+    .landingpage .btn-container button {
+        font-size: 14px;
+    }
+
+    .landingpage .form-container input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .landingpage .form-container button {
+        width: 70%;
+        font-size: 14px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .landingpage .login-container {
+        width: 90%;
+        margin: 8vh auto;
+    }
+
+    .landingpage .heading {
+        font-size: 25px;
+    }
+
+    .landingpage .btn-container {
+        width: 95%;
+        height: 7vh;
+    }
+
+    .landingpage .btn-container button {
+        font-size: 12px;
+    }
+
+    .landingpage .form-container input {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .landingpage .form-container button {
+        width: 80%;
+        font-size: 12px;
+    }
+}

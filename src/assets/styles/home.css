@@ -1,0 +1,12 @@
+.home .background{
+    border:none;
+    /* width:100vw; */
+    height:85vh;
+    background-image: url('../images/home.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position: center; */
+}
+
+
+

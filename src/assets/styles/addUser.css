@@ -1,0 +1,53 @@
+
+.addUser-container .addUser{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgb(6, 6, 6); */
+
+}
+
+.addUser-container .addUser input{
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    margin:2vh auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 5px gray;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid gray;
+
+
+}
+
+.addUser-container .addUser input:focus{
+    border: 1px solid blue;
+}
+
+.addUser .btn{
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.addUser-container .addUser button{
+    /* width: 20%; */
+    padding: 10px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: rgb(45, 132, 161);
+    }
+}

@@ -1,0 +1,72 @@
+.user-container{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: gray; */
+}
+
+.user-container .head{
+    /* background-color: rgb(219, 208, 208); */
+    width: 100%;
+   padding: 1rem 0rem;
+    /* height: 100vh; */
+}
+
+.user-container .head table{
+    margin:1vh auto;
+    width:80% ;
+    font-size: 20px;
+    /* background-color: aqua; */
+    text-align: center;
+    box-shadow: 0px 0px 10px gray;
+    background-color: aliceblue;
+}
+
+.user-container .head th{
+    padding:20px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.user-container .head td{
+    padding:20px;
+    box-shadow: 0px 0px 5px gray;
+}
+/* .user-container .head th, td{
+    border: none;
+    padding: 10px;
+} */
+
+/* .user-container .head th,td{
+    box-shadow:inset 0px 0px 5px gray;
+} */
+
+.user-container .head .btn-user{
+    outline: none;
+    border: none;
+    padding:0.5rem 0.8rem;
+    border-radius: 5px;
+    /* background-color: black; */
+    box-shadow:inset 0px 0px 10px red;
+}
+
+.user-container .adduser-cont{
+    width: 100%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.user-container .adduser-cont h1{
+    margin:20px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.user-container .adduser-cont button{
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    box-shadow: inset 0px 0px 20px green;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

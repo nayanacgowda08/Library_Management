@@ -1,0 +1,113 @@
+.main-container{
+    width: 70%;
+    margin:10vh auto;
+    padding: 2%;
+    /* background-color: rgb(237, 217, 217); */
+    display: flex;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 50px rgba(229, 67, 67, 0.5);
+}
+
+.main-container .left{
+    width: 20%;
+    /* background-color: aqua; */
+}
+
+.main-container .bookimg{
+    width: 100%;
+    /* height: auto; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(57, 58, 58);
+}
+
+.main-container .book-title{
+    font-size: 24px;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.right{
+    width: 50%;
+    margin:0vh auto;
+    /* background-color: thistle; */
+    overflow: auto;
+}
+
+.right .right-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+    /* border-bottom: 2px solid black; */
+}
+
+.right .shortdes{
+    /* text-align: justify; */
+    margin-top: 2vh;
+    /* font-size: 25px; */
+}
+
+.right .longdes{
+    /* text-align: justify; */
+    margin-top: 2vh;
+    font-size: 15px;
+
+}
+
+.right .accord-btn{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: space-between; */
+    /* background-color: aqua; */
+    /* padding: 20px; */
+}
+
+.right .accord-btn button{
+    width: 80%;
+    margin:1vh auto;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: inset 0px 0px 10px gray;
+    background-color: white;
+    cursor: pointer;
+}
+
+.right .others{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: gray;
+    margin: auto;
+}
+
+
+.arrow-key{
+    /* background-color: red; */
+    width: 10%;
+    height: 3vh;
+    /* margin :auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arrow-key .arrow-key-icon{
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 40px;
+    transition: transform 0.3s;
+}
+
+.arrow-key .arrow-key-icon:hover{
+    transform: scale(1.1);
+    color: gray;
+    /* box-shadow: 0px 0px 10px gray; */
+}
+
+.arr-icon{
+    display: flex;
+    justify-content: space-between;
+}
